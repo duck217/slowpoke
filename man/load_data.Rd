@@ -2,7 +2,7 @@
 % Please edit documentation in R/data.R
 \name{load_data}
 \alias{load_data}
-\title{Load bundled Pokémon TCG dataset}
+\title{Load the Pokémon TCG dataset}
 \usage{
 load_data()
 }
@@ -10,5 +10,5 @@ load_data()
 A tibble containing Pokémon TCG data.
 }
 \description{
-Load bundled Pokémon TCG dataset
+Reads the parquet file bundled in the package -- no download.
 }
